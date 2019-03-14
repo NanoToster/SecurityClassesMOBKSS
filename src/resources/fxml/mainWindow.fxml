@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.vsu.controllers.MainWindowController">
+   <children>
+      <TextArea fx:id="textArea" layoutX="306.0" layoutY="6.0" prefHeight="280.0" prefWidth="293.0" />
+      <AnchorPane fx:id="checkBoxPane" prefHeight="400.0" prefWidth="394.0">
+         <children>
+            <CheckBox layoutX="206.0" layoutY="278.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="44" />
+            <CheckBox layoutX="206.0" layoutY="172.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="41" />
+            <CheckBox layoutX="206.0" layoutY="247.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="43" />
+            <CheckBox layoutX="206.0" layoutY="211.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="42" />
+            <CheckBox layoutX="206.0" layoutY="314.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="45" />
+            <CheckBox layoutX="206.0" layoutY="344.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="46" />
+            <CheckBox layoutX="206.0" layoutY="50.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="31" />
+            <CheckBox layoutX="206.0" layoutY="88.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="32" />
+            <CheckBox layoutX="206.0" layoutY="126.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="33" />
+            <CheckBox layoutX="86.0" layoutY="333.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="24" />
+            <CheckBox layoutX="86.0" layoutY="303.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="23" />
+            <CheckBox layoutX="86.0" layoutY="205.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="216" />
+            <CheckBox layoutX="86.0" layoutY="236.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="217" />
+            <CheckBox layoutX="86.0" layoutY="176.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="215" />
+            <CheckBox layoutX="86.0" layoutY="46.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="211" />
+            <CheckBox layoutX="86.0" layoutY="82.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="212" />
+            <CheckBox layoutX="86.0" layoutY="144.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="214" />
+            <CheckBox layoutX="86.0" layoutY="113.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="213" />
+            <CheckBox layoutX="86.0" layoutY="272.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="22" />
+            <CheckBox layoutY="150.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="12" />
+            <CheckBox layoutY="90.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="113" />
+            <CheckBox layoutY="118.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="114" />
+            <CheckBox layoutY="61.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="112" />
+            <CheckBox layoutY="31.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="111" />
+         </children></AnchorPane>
+      <Button fx:id="checkButton" layoutX="403.0" layoutY="355.0" mnemonicParsing="false" onAction="#checkButtonAction" text="Check" />
+   </children>
+</AnchorPane>
